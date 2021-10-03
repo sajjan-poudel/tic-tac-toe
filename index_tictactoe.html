@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tictactoe</title>
+</head>
+
+<body>
+    <div id="menu">
+        <div class="chooseRound">
+            <h1>choose a round</h1>
+            <p>1</p>
+            <p>3</p>
+            <p>5</p>
+            <p>7</p>
+            <p>9</p>
+            <p>11</p>
+            <p>13</p>
+            <p>15</p>
+        </div>
+    </div>
+    <div class="container">
+        <nav>
+            <a href="#" id="reStart">Restart</a>
+            <a href="#" id="reMatch">Rematch</a>
+            <a id="support" href="http://bn.plus/fz4Ifw">Support this game</a>
+        </nav>
+        <div id="round">Round <span>1</span></div>
+        <div class="wapper">
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <div class="points">
+            <div>Target: <span id="target"></span></div>
+            <div id="teamX">team X points: <span id="xPoint"></span></div>
+            <div id="teamO">team O points: <span id="oPoint"></span></div>
+        </div>
+    </div>
+    <div id="result">
+        <div class="show-result">
+            <h1>The Winner is <span id="winner"></span></h1>
+            <div>Team X total points: <span id='xPoint_t'></span></div>
+            <div>Team O total points: <span id='oPoint_t'></span></div>
+
+            <button id='cancel'>cancel</button>
+            <button id='restart'>Menu</button>
+            <button id='moreRound'>one more round</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
